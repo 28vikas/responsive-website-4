@@ -1,0 +1,392 @@
+
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.para{
+    font-size: 1.6rem;
+    line-height: 1.4;
+}
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+ 
+}
+
+.header-section{
+    height: auto;
+}
+
+.my-logo h3{
+    color: white;
+}
+
+
+.header-section{
+    display: flex;
+    width: 100%;
+
+}
+
+.home-div {
+    margin-top: 15rem;
+
+}
+
+.home-div a{
+    display: block;
+
+    margin: 1rem 0;
+    text-align: center;
+    font-size: 1.8rem;
+    padding: 1.5rem 0;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.home-div a:hover {
+    background-color: #607d8b;
+}
+
+.my-logo{
+    width: 50%;
+    background-color: black;
+}
+
+.my-logo h3{
+   
+        font-size: 4rem;
+        margin-top: 10rem;
+        font-weight: 300;
+        text-align: center;
+      
+    
+}
+
+
+.about-me{
+    width: 50%;
+    background-color: #607d8b;
+    text-align: center;
+}
+
+.about-me h3{
+    font-size: 4rem;
+    color: white;
+    font-weight: 300;
+    margin-top: 10rem;
+}
+.about-me p{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+    width: 90%;
+    margin: 2rem auto;
+}
+
+.about-me img{
+    width: 50%;
+    border-radius: 50%;
+    margin: 50px 0;
+   
+}
+
+
+/* ..........second................
+section............ */
+
+
+.second-section{
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+
+.my-work{
+    width: 50%;
+    background-color: rgb(238, 237, 237);
+}
+
+.my-work h3{
+   
+    font-size: 4rem;
+    margin-top: 10rem;
+    font-weight: 300;
+    text-align: center;
+  
+
+}
+
+
+.para-two{
+    text-align: center;
+    margin: 3rem 0;
+}
+
+.resume{
+    width: 50%;
+    background-color: #3f51b5;
+}
+
+.resume h3{
+   
+    font-size: 4rem;
+    margin-top: 10rem;
+    font-weight: 300;
+    text-align: center;
+   color: white;
+
+}
+
+.resume p{
+    text-align: center;
+}
+
+.my-work-img{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.imgdiv{
+    width: 50%;
+}
+
+.imgdiv img{
+    width: 100%;
+}
+
+/* ...........table
+.....section....... */
+
+
+
+/* tabkle end */
+
+
+
+
+.third-section{
+    display: flex;
+   
+}
+
+.swing{
+    width: 50%;
+    background-color: #616161;
+    color: white;
+    text-align: center;
+}
+
+.swing h3{
+   
+    font-size: 4rem;
+    margin-top: 10rem;
+    font-weight: 300;
+}
+
+.swing-para{
+   margin-top: 2rem;
+}
+
+.swing-paratwo{
+margin-top: 10rem;
+}
+
+.get-para{
+    margin-left: 6.6rem;
+    margin-top: 2rem;
+    color: rgb(213, 210, 210);
+}
+
+
+.contact h3{
+   
+    font-size: 4rem;
+    margin-top: 10rem;
+    font-weight: 300;
+    margin-left: 6.5rem;
+
+   
+    color: white;
+ 
+
+}
+
+.para-three{
+    color: white;
+}
+
+.contact{
+    width: 50%;
+  background-color: #009688;
+}
+
+form{
+    width: 80%;
+    margin: 70px auto;
+    background-color: rgb(255, 255, 255);
+    padding: 40px 20px;
+    box-shadow: 2px 2px 10px rgb(94, 94, 94);
+}
+input{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 1px solid rgb(227, 227, 227);
+}
+
+.label{
+    font-size: 1.9rem;
+}
+
+
+table {
+    border-collapse: collapse;
+
+    width: 100%;
+    font-size: 1.5rem;
+  
+}
+.td-degree{
+    padding: 1.5rem 0 0 1.5rem;
+}
+
+.year{
+    padding: 0 0 1.5rem 1.5rem;
+
+}
+
+
+th{
+    color: white;
+ 
+}
+
+
+
+.table-div{
+    width: 90%;
+    margin: 0 auto;
+    
+}
+
+
+
+
+.degree{
+    background-color: white;
+
+    width: 100%;
+  
+ 
+   
+}
+
+
+
+.footer{
+    background-color: black;
+    width: 100%;
+    height: 8rem;
+   }
+   
+   
+   .power-para{
+       color: white;
+       padding: 3rem 2rem;
+   }
+
+
+   .white-td{
+    color: white;
+   }
+
+   th{
+    padding: 1rem 0;
+   }
+
+   .btn{
+    float: right;
+    padding: .8rem 2.5rem;
+    background-color: #009688;
+    border: none;
+    color: white;
+   }
+   .btn:hover{
+    color: black;
+    background-color: rgb(218, 218, 218);
+    cursor: pointer;
+   }
+
+
+
+
+   @media (max-width: 600px){
+    .header-section{
+        flex-direction: column;
+       
+    }
+
+    .my-logo{
+        width: 100%;
+    }
+
+    .about-me{
+        width: 100%;
+    }
+
+    .home-div {
+        margin-bottom: 15rem;
+        margin-top: 10rem;
+    
+    }
+
+    .second-section{
+        flex-direction: column;
+    }
+
+    .my-work{
+        width: 100%;
+    }
+
+    .resume{
+        width: 100%;
+    }
+    .third-section{
+        flex-direction: column;
+    }
+
+    .swing{
+        width: 100%;
+        
+    }
+    .swing-para{
+        margin-bottom: 2rem;
+    }
+
+    .contact{
+        width: 100%;
+    }
+
+   }
